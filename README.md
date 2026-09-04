@@ -7,4 +7,6 @@ Alanna's personal Devin plugin. Ported from the "Personal Workflows" knowledge n
 - `rules/post-review-changes.md` — no scope-expanding pushes to reviewed PRs.
 - `rules/no-mixed-refactors.md` — keep refactors and functionality changes in separate PRs.
 
+- `skills/pr-checklist` — `/alanna-workflow:pr-checklist`, runs the checklist explicitly.
+
 Install: Settings → Personal → Plugins, add `alannnna/devin-plugin` as a required plugin.
