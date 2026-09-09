@@ -20,3 +20,5 @@ If no test plan is present, **do not create the PR yet**. Instead, prompt Alanna
 > - Other
 
 Once she responds, add a "## Test plan" section to the PR body with her answer, then proceed to create/update the PR.
+
+4. **Respect Alanna's edits to the PR description.** Before updating an existing PR's description (e.g. via `git_update_pr`), fetch the current body with `git_view_pr` and start from that — never regenerate the description from scratch or overwrite it with a locally cached version. Alanna often edits PR descriptions directly on GitHub; keep her wording, structure, and any sections she added or removed, and make only the minimal additive change needed (e.g. append a note about a new commit, add a screenshot). If her edits conflict with what you were going to write, defer to her edits and ask rather than overwrite.

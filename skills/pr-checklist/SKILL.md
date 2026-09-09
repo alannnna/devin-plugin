@@ -11,3 +11,4 @@ Before creating or updating a PR for Alanna, verify each item and fix anything t
 4. Description has a `## Test plan` section. If not, ask Alanna how she is verifying the change (CI existing tests / CI new tests / manual / none-with-reason / TODO) before creating the PR.
 5. The diff is additive: no refactors, renames, or moves bundled with new behavior. If there are unexplained deletions, split the refactor into its own PR first.
 6. If the PR has already been reviewed, only push commits Alanna explicitly requested or approved.
+7. When updating an existing PR's description, start from the current body (`git_view_pr`) and make only minimal additive edits — never overwrite Alanna's own edits.
